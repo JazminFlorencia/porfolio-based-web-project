@@ -1,0 +1,53 @@
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(125, 2, 240);/* fondo provisorio*/
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.elem_menu{
+    transition: color 0.5s;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.elem_menu:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
