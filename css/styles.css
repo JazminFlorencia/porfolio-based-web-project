@@ -1,13 +1,13 @@
 .todo{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
     width: 100%;
     background-color: rgb(125, 2, 240);/* fondo provisorio*/
 }
 
+/*comienzo de edicion de la cabecera*/
 .cabecera{
+    background-color: rgb(125, 2, 240);/* fondo provisorio*/
     display: flex;
     justify-content: space-around;
     color: white;
@@ -43,6 +43,7 @@
     border-radius: 20px;
     border: 1px;
     transition: background-color 0.5s, color 0.5s;
+    align-items: center;
 }
 
 .button:hover{
@@ -51,3 +52,90 @@
     cursor: pointer;
 }
 
+/*fin de edicion de cabecera*/
+
+/*comienzo de edición del hero*/
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 590px;
+    align-items: center;
+    width: 100%;
+}
+
+.hero_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    width: 40%;
+
+}
+
+.titulo_hero{
+    display: flex;
+    flex-direction: column;
+    flex-direction: start;
+    text-size-adjust: 100px;
+    width: 100%;
+    margin: none;
+}
+
+.button_hero{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.button_2_hero{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 1px;
+    margin: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.button_1_hero{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 1px;
+    margin: 5px;
+    transition: background-color 0.5s, color 0.5s;
+    align-items: center;
+}
+
+.button_1_hero:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.button_2_hero:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+
+/*fin de edicion del hero*/
+
+/**/
+.seccion_1{
+    background-color: aliceblue;
+    height: 590px;
+}
+
+.seccion_2{
+    background-color: rgb(132, 179, 221);
+    height: 590px;
+}
