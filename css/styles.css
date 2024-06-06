@@ -1,13 +1,17 @@
+.root{
+    --color_morado: rgb(125, 2, 240);
+}
+
 .todo{
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: rgb(125, 2, 240);/* fondo provisorio*/
+    background-color: white;
 }
 
 /*comienzo de edicion de la cabecera*/
 .cabecera{
-    background-color: rgb(125, 2, 240);/* fondo provisorio*/
+    background-color: rgb(125, 2, 240);
     display: flex;
     justify-content: space-around;
     color: white;
@@ -32,7 +36,6 @@
 
 .elem_menu:hover{
     color: orange;
-    cursor: pointer;
 }
 
 .button{
@@ -49,7 +52,6 @@
 .button:hover{
     background-color: white;
     color: orange;
-    cursor: pointer;
 }
 
 /*fin de edicion de cabecera*/
@@ -57,6 +59,7 @@
 /*comienzo de edición del hero*/
 
 .hero{
+    background-color: rgb(125, 2, 240);
     display: flex;
     justify-content: space-around;
     height: 590px;
@@ -81,7 +84,7 @@
     flex-direction: start;
     text-size-adjust: 100px;
     width: 100%;
-    margin: none;
+    line-height: 1px;    
 }
 
 .button_hero{
@@ -117,25 +120,108 @@
 .button_1_hero:hover{
     background-color: white;
     color: orange;
-    cursor: pointer;
 }
 
 .button_2_hero:hover{
     background-color: white;
     color: orange;
-    cursor: pointer;
 }
 
 
 /*fin de edicion del hero*/
 
-/**/
+/* inicio de bloque 1*/
 .seccion_1{
-    background-color: aliceblue;
-    height: 590px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 68px;
+
 }
+
+.texto_seccion_1{
+    text-align: center;
+    width: 80%;
+}
+
+.titulo_1_seeccion_1{
+    color: rgb(125, 2, 240);
+}
+
+.texto{
+    color: gray;
+    text-size-adjust: 5px;
+}
+
+.divisiones_seccion_1{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    line-height: 20px;
+
+}
+
+.div_1_seccion_1{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.div_2_seccion_1{
+    background-color: rgb(125, 2, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.texto_blanco{
+    color: white;
+    text-size-adjust: 5px;
+}
+
+.icono_seccion_1{
+    width:60px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+.circulo{
+    background-color:rgba(175, 173, 173, 0.164);
+    border: solid 30px rgba(175, 173, 173, 0.164);
+    border-radius: 80%;
+    color: rgba(175, 173, 173, 0.164);
+    position: relative;
+    left: 30px;
+}
+
+.circulo_seccion1{
+    display: flex;
+}
+
+/* fin de bloque 1*/
+
 
 .seccion_2{
     background-color: rgb(132, 179, 221);
     height: 590px;
+    
 }
