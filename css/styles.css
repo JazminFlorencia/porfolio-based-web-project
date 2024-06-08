@@ -7,6 +7,7 @@
     justify-content: center;
     width: 100%;
     background-color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 /*comienzo de edicion de la cabecera*/
@@ -82,9 +83,9 @@
     display: flex;
     flex-direction: column;
     flex-direction: start;
-    text-size-adjust: 100px;
     width: 100%;
-    line-height: 1px;    
+    line-height: 30px;    
+    margin: 0;
 }
 
 .button_hero{
@@ -150,10 +151,11 @@
 
 .titulo_1_seeccion_1{
     color: rgb(125, 2, 240);
+    line-height: 10px;
 }
 
 .texto{
-    color: gray;
+    color: rgb(100, 100, 100);
     text-size-adjust: 5px;
 }
 
@@ -219,9 +221,95 @@
 
 /* fin de bloque 1*/
 
-
+/*inicio del bloque 2*/
 .seccion_2{
-    background-color: rgb(132, 179, 221);
-    height: 590px;
+    background-image: url(../img/fondo_seccion_2.jpg);
+    background-size: cover; 
+    background-repeat: repeat;
+    background-position: center center; 
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
     
 }
+
+.texto_seccion_2{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: 5px;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.div_1_seccion_2{
+    background-color: rgb(248, 203, 173);
+    border-radius: 10px;
+    padding: 10px;
+    height: 18vh;
+    display: flex;
+}
+
+.div_texto_seccion2{
+    list-style: 5px;
+    width: 80%;
+}
+
+.flecha_naranja{
+    border: solid 1px #9c480a;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.div_2_seccion_2{
+    background-color: rgb(211, 184, 236);
+    border-radius: 10px;
+    padding: 10px;
+    height: 18vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+.flecha_morada{
+    border: solid 1px #330066;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.button_seccion_2{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 1px;
+    margin: 20px 0;
+    transition: background-color 0.5s, color 0.5s, cursor 0.5s;
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+
+.button_seccion_2:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.flecha_blanca{
+    margin: 10px;
+}
+
+/*fin del bloque 2*/
