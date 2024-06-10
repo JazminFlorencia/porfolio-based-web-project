@@ -313,3 +313,88 @@
 }
 
 /*fin del bloque 2*/
+
+
+/*inicio del bloque 2*/
+
+.div_seccion_3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.division_seccion_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.icono_seccion_3{
+    background-color: rgb(125, 2, 240);
+    width:60px;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.borde_punteado{
+    border: 2px dashed orange;
+    border-radius: 50%;
+}
+
+/*fin del bloque 3*/
+
+/*inicio del bloque 4*/
+
+.seccion_4{
+    background-image: url(../img/fondo_seccion_2.jpg);
+    background-size: cover; 
+    background-repeat: repeat;
+    background-position: center center; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.divisiones_seccion_4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    line-height: 20px;
+    height: 60%;
+}
+
+.div_seccion_4{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 250px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.estrellas{
+    width: 20px;
+}
+
+.personas{
+    display: flex;
+    line-height: 5px;
+    height: 30%;
+    align-items: center;   
+}
+
+.img_personas{
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/*fin del bloque 4*/
