@@ -1,7 +1,3 @@
-.root{
-    --color_morado: rgb(125, 2, 240);
-}
-
 .todo{
     display: flex;
     justify-content: center;
@@ -59,7 +55,19 @@
 
 /*comienzo de edición del hero*/
 
+.img_hero{
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 30px;
+}
+
 .hero{
+    background-image: url(../img/hero.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: rgb(125, 2, 240);
     display: flex;
     justify-content: space-around;
@@ -135,6 +143,41 @@
 
 }
 
+.espiral{
+    width: 80px;
+    position: absolute;
+    left: 270px;
+    bottom: -100px;
+}
+
+.star{
+    width: 40px;
+    position: absolute;
+    left: 350px;
+    bottom: -670px;
+}
+
+.mancha1{
+    width: 60px;
+    position: absolute;
+    right: 100px;
+    bottom: -200px;
+}
+
+.mancha2{
+    width: 50px;
+    position: absolute;
+    right: 30px;
+    bottom: -170px;
+}
+
+.mancha3{
+    width: 40px;
+    position: absolute;
+    right: 90px;
+    bottom: -130px;
+}
+
 .texto_seccion_1{
     text-align: center;
     width: 80%;
@@ -151,7 +194,6 @@
 }
 
 .divisiones_seccion_1{
-    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -161,7 +203,7 @@
 }
 
 .div_1_seccion_1{
-    background-color: whitesmoke;
+    background-color: rgba(212, 212, 212, 0.836);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,22 +256,24 @@
 
 /*inicio del bloque 2*/
 .seccion_2{
-    background-image: url(../img/fondo_seccion_2.jpg);
+    background-image: url(../img/aboutMe.png);
     background-size: cover; 
-    background-repeat: repeat;
-    background-position: center center; 
-    height: 600px;
+    background-repeat: no-repeat;
+    background-position:  center center; 
+    height: 680px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%
-    
+}
+
+.img_about{
+    width: 100%;
 }
 
 .texto_seccion_2{
-    width: 40%;
-    background-color: rgba(255, 255, 255, 0.548);
-    margin: 5px;
+    width: 150%;
+    margin: 0 10%;
     height:90%;
     display: flex;
     flex-direction: column;
@@ -256,8 +300,6 @@
     width: 20px;
     height: 20px;
     margin: 20px;
-    position: relative;
-    bottom: 20px;
 }
 
 .div_2_seccion_2{
@@ -275,8 +317,6 @@
     width: 20px;
     height: 20px;
     margin: 20px;
-    position: relative;
-    bottom: 20px;
 }
 
 .button_seccion_2{
@@ -306,11 +346,48 @@
 /*fin del bloque 2*/
 
 
-/*inicio del bloque 2*/
+/*inicio del bloque 3*/
+
+.seccion_3{
+    background-image: url(../img/proceso.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center end;
+    background-color: whitesmoke;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 68px;
+}
 
 .div_seccion_3{
     display: flex;
     justify-content: space-around;
+}
+
+.estrella_secc3{
+    width: 40px;
+    position: absolute;
+    left: 1000px;
+    top: 2090px;
+}
+
+
+.flecha_curva{
+    width: 70px;
+    position: absolute;
+    left: 500px;
+    transform: rotate(45deg);
+}
+
+.flecha1_curva{
+    width: 70px;
+    position: absolute;
+    left: 850px;
+    transform: rotate(45deg);
 }
 
 .division_seccion_3{
@@ -328,7 +405,7 @@
     background-color: rgb(125, 2, 240);
     width:60px;
     border-radius: 100%;
-    border: 10px solid white;
+    border: 10px solid whitesmoke;
 }
 
 .borde_punteado{
@@ -341,7 +418,7 @@
 /*inicio del bloque 4*/
 
 .seccion_4{
-    background-image: url(../img/fondo_seccion_2.jpg);
+    background-image: url(../img/testimonios.png);
     background-size: cover; 
     background-repeat: repeat;
     background-position: center center; 
@@ -408,6 +485,8 @@
 
 .img_border{
     border-radius: 5px;
+    width: 200px;
+    height: 150;
 }
 
 .img_seccion_5{
@@ -480,8 +559,12 @@
 /*inicio del bloque 6*/
 
 .seccion_6{
+    background-image: url(../img/);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: rgb(125, 2, 240);
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     height: 400px;
@@ -498,48 +581,15 @@
     color: white;
     width: 30%;
     line-height: 30px;
+    margin-left:10% ;
+}
+
+.img_seccion6{
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    bottom: 175px;
 }
 
 /*fin del bloque 6*/
-
-/*inicio del bloque 7*/
-
-.seccion_7{
-    background-color: whitesmoke;
-    height: 480pxpx;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    margin: 68px;
-}
-
-.div_seccion_7{
-    text-align: center;
-    width: 40%;
-    text-align: start;
-}
-
-.formulario{
-    background-color: white;
-    width: 100%;
-}
-
-.email{
-    width: 60%;
-    background-color: white;
-    border: solid 2px white;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.button_suscribirse{
-    width: 34%;
-    background-color: rgb(125, 2, 240);
-    border: solid 2px rgb(125, 2, 240);
-    padding: 10px;
-    text-decoration: none;
-}
-
-/*fin del bloque 7*/
