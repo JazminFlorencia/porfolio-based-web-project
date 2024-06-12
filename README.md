@@ -9,7 +9,6 @@ index.html: El archivo HTML principal del sitio web.
 css/: Directorio que contiene los archivos CSS.
     styles.css: Hoja de estilos principal con los estilos básicos.
     normalize.css: Archivo CSS para proporcionar consistencia entre navegadores.
-    responsive.css: Hoja de estilos para ajustes de diseño responsivo.
 img/: Directorio que contiene todas las imágenes utilizadas en el sitio web.
 
 Consideraciones de Diseño
@@ -26,19 +25,4 @@ Este archivo contiene los estilos principales del sitio web, incluyendo el dise�
 
 Cabecera: Estilo con posición fija, color de fondo y efectos de transición para los elementos del menú.
 Sección Hero: Incluye imágenes de fondo, diseño con flexbox y estilos de botones.
-Secciones: Cada sección tiene su propio estilo, incluyendo colores de fondo, alineación del texto y ajustes responsivos.
-
-normalize.css
-
-Proporciona consistencia entre navegadores en el estilo predeterminado de los elementos HTML.
-responsive.css
-
-Contiene media queries para asegurar que el sitio web sea responsivo y se ajuste adecuadamente en diferentes tamaños de pantalla. Para max-width: 1920px, se aplican estilos específicos para mejorar la experiencia del usuario en pantallas más grandes.
-Ajustes Responsivos
-
-Para pantallas con un ancho máximo de 1920px, se realizan los siguientes ajustes:
-
-  Cambios generales de diseño a dirección de columna para una mejor legibilidad.
-  Ajustes en la cabecera y el menú para mejor espaciado y alineación.
-  Modificaciones en la sección Hero para la alineación de texto y botones.
-  Cambios específicos en las secciones para asegurar que los elementos estén centrados y correctamente espaciados.
+    Secciones: Cada sección tiene su propio estilo, incluyendo colores de fondo, alineación del texto y ajustes responsivos
