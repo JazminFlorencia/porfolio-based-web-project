@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: white;
+    background-color: whitesmoke;
     font-family: "Poppins", sans-serif;
 }
 
@@ -63,7 +63,7 @@
     background-color: rgb(125, 2, 240);
     display: flex;
     justify-content: space-around;
-    height: 590px;
+    height: 580px;
     align-items: center;
     width: 100%;
 }
@@ -75,17 +75,8 @@
     height: 100vh;
     align-items: center;
     color: white;
-    width: 40%;
-
-}
-
-.titulo_hero{
-    display: flex;
-    flex-direction: column;
-    flex-direction: start;
-    width: 100%;
-    line-height: 30px;    
-    margin: 0;
+    width: 30%;
+    line-height: 30px;
 }
 
 .button_hero{
@@ -133,7 +124,7 @@
 
 /* inicio de bloque 1*/
 .seccion_1{
-    background-color: white;
+    background-color: whitesmoke;
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -398,3 +389,157 @@
 }
 
 /*fin del bloque 4*/
+
+
+/*inicio del bloque 5*/
+
+.p_boton{
+    padding: 10px;
+    border: 1px solid;
+    border-color:  rgb(125, 2, 240);
+    border-radius: 5px;
+    transition: background-color 0.5;
+}
+
+.p_boton:hover{
+    background-color: rgb(125, 2, 240);
+    color: white;
+}
+
+.img_border{
+    border-radius: 5px;
+}
+
+.img_seccion_5{
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5;
+}
+
+.img_seccion_5:hover{
+    background-color: rgba(172, 172, 172, 0.596);
+}
+
+.div_seccion_5{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+
+.h6_seccion5{
+    line-height: 1px;
+    text-size-adjust: 2px;
+    color: rgb(100, 100, 100);
+}
+
+.line_aling{
+    line-height: 2px;
+}
+
+.line_aling_titulo{
+    line-height: 50px;
+}
+
+.flecha_blanca_inclinada{
+    rotate: -45deg;
+}
+
+.img_button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(125, 2, 240);
+    border-radius: 100%;
+    padding: 4px;
+    border: solid 1px rgb(125, 2, 240);
+    transition: transform 0.5, cursor 0.5, background-color 0.5;
+}
+
+.img_button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.divisiones_seccion_5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 20px;
+}
+
+.texto_seccion_5{
+    text-align: center;
+    width: 55%;
+    color: black;    
+}
+
+/*fin del bloque 5*/
+
+
+/*inicio del bloque 6*/
+
+.seccion_6{
+    background-color: rgb(125, 2, 240);
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    align-items: end;
+}
+
+.texto_seccion6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    color: white;
+    width: 30%;
+    line-height: 30px;
+}
+
+/*fin del bloque 6*/
+
+/*inicio del bloque 7*/
+
+.seccion_7{
+    background-color: whitesmoke;
+    height: 480pxpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 68px;
+}
+
+.div_seccion_7{
+    text-align: center;
+    width: 40%;
+    text-align: start;
+}
+
+.formulario{
+    background-color: white;
+    width: 100%;
+}
+
+.email{
+    width: 60%;
+    background-color: white;
+    border: solid 2px white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button_suscribirse{
+    width: 34%;
+    background-color: rgb(125, 2, 240);
+    border: solid 2px rgb(125, 2, 240);
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*fin del bloque 7*/
